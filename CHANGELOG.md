@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Upgraded `react-router-dom` from 6.x to 7.18.4. The app only uses `BrowserRouter`, `Routes`, `Route`, `NavLink` and (in tests) `MemoryRouter`, all of which are unchanged in v7, so no source changes were required.
+
 ## [0.1.0] - 2026-10-16
 
 ### Added
